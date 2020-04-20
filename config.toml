@@ -1,4 +1,4 @@
-baseURL = "https://ayanbag.netlify.com"
+baseURL = "https://ayanbag.netlify.app"
 title   = "Ayan Bag"
 
 DefaultContentLanguage = "en"
