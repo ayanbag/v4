@@ -1,0 +1,133 @@
+
++++
+categories = ["r"]
+date = "2018-10-27"
+description = "R is a open source and very popular programming language and environment for statistical computer and graphics."
+
+featuredpath = "date"
+linktitle = ""
+slug = "sweet-introduction-to-r-programming"
+title = "A Sweet Introduction to R Programming"
+tags = ["medium","r","data-science","language"]
+type = "post"
+[ author ]
+  name = "Ayan Bag"
++++
+
+
+
+![1*ZD3KZIlKNZtgVKw-3JFUwQ](https://user-images.githubusercontent.com/28982255/79722215-47bd0f80-8301-11ea-875a-6d8874d91db3.jpeg)
+
+R is a open source and very popular programming language and environment for statistical computer and graphics.R was designed by statisticians and was specialized for statistical computing, and thus is known as the **lingua franca of statistics**. It is mostly used in Data Science and Machine Learning. It is managed by R core development team — team of volunteer developer from across the globe. R provide a wide variety of statistical and graphical techniques and highly extensible.It was developed at Bell Laboratories by John Chambers and colleagues.R is a consolidated environment for performing statistical operation and generating R data analysis reports in graphical or text formats.
+
+### History of R:
+
+R was created by Ross Ihaka and Robert Gentleman at the University of Auckland, New Zealand, and currently developed by the **R Development Core Team**. R is an implementation of the S programming Language and combines with lexical scoping semantics inspired by Scheme. John Chambers and colleagues developed S at Bell Laboratories. R was named partly after the first names of two R authors. The initial version of R is released in 1995 and a stable beta version released in 2000.
+
+### **Language Features:**
+
+* R is a well defined and effective programming language which includes functions, loops, user defined function, input and output facilities and many more
+
+* R is both flexible and powerful.
+
+* R has effective data and storage facilities
+
+* R provides graphical facilities for data analysis
+
+* R is easy to learn and free to use as it is open sourced
+
+* R is interpreted language
+
+* R is Object-Oriented Programming Language
+
+* R supports matrix arithmetic.
+
+* **R is case sensitive**
+
+* R is widely use among mathematician and data miners for data analysis.
+
+### Alternatives of R:
+
+R is not only language in the domain of statistical computing and graphics. Some popular alternatives of R:
+
+**Python**
+
+Python is very powerful high level , object oriented language with very simple syntax.It is also extremely popular between data scientist and researcher. Most packages in R is equivalent to packages in Python.
+
+The choice between R vs Python also depends on what you are trying to accomplish with your code. If you are trying to analyze a data set and present the findings in a research paper, then R is probably a better choice. But if you are writing a data analysis program that runs in a distributed system and interacts with lots of other components, it would be preferable to work with Python.
+
+**SAS (Statistical Analysis System)**
+
+SAS (Statistical Analysis System) introduced the SAS Business Intelligence & Analytics Solution for large enterprises to explore their large data sets in a visually appealing format. SAS analytics is a data analytics tool that is used increasingly in Data Science, Machine learning, and Business Intelligence applications.It has been the first choice of many private enterprise for their analytics for a long time.
+
+Although SAS is extremely popular in commercial analysis, R and Python is gaining momentum in the enterprise space and companies are also trying to move towards open-source technologies.
+
+**SPSS — Software package for statistical analysis**
+
+SPSS is a popular statistical tool which is commonly used in the social sciences and is considered as easiest to learn among enterprise statistical software/tools.It is loved by non-statisticians because it is similar to excel. SPSS has the same downside as SAS — it is expensive. SPSS was acquired by IBM in 2009 for a reported $1.2 billion.
+
+![](https://cdn-images-1.medium.com/max/2274/1*Jkpt7Ywss4vYTaQdWTIjqg.png)
+
+![](https://cdn-images-1.medium.com/max/2234/1*3OURUMzIYZcffJJySqkmNQ.png)
+
+![](https://cdn-images-1.medium.com/max/2056/1*_5dHmiblEoV-fhNKWa1dTg.png)
+
+![](https://cdn-images-1.medium.com/max/2000/1*Spwo0Svq4QQah4HT5qlbdw.png)
+
+![](https://cdn-images-1.medium.com/max/2000/1*QM7lomuFrx3SSBC-J_ZdQg.png)
+
+![Courtesy: KDnuggets](https://cdn-images-1.medium.com/max/2000/1*JRyxaCTrH0USsEgcKNWGeg.png)*Courtesy: KDnuggets*
+
+### Why should we adopt R Programming Language ?
+
+* R is open source. Therefore Google is using R Programming as it is suitable language. By using R we can create any form of statistics and data manipulation.
+
+* R programming language is best for statistical, data analysis and machine learning. By using this language we can create objects, functions, and packages. We can use it anywhere. It’s platform- independent, so it can be applied to all operating system. It’s free, so anyone can install it in any organization without purchasing a license.
+
+* R, SAS, and SPSS are three statistical languages. Of these three statistical languages, R is the only an open source.R Programming is extensible and hence, R groups are noted for its energetic contributions. Lots of Rs typical features can be written in R itself and hence, R has gotten faster over time and serves as a glue language.
+
+* As companies gather more and more data, the demand for data scientists are also greatly increasing. Demand for R developers will no doubt be on the rise.
+
+### Working with R scripts:
+
+R provides the freedom of selecting and editing tools to interact with the native console. While scripting in R, you don’t need to type commands but rather call functions to achieve results. The R Console allows command editing.
+The Prominent editors available for R programming language:
+
+* **RGui** (R graphical user Interface)
+
+* **RStudio **— It is an integrated development environment (IDE) for R language and offers a very rich environment for editing and creating R scripts than RGui.
+
+### R Scripting:
+
+R holds a reputation for getting things done with very little code.Let us start scripting in R with a very simple program called “Hello World”.
+
+    #printing Hello World
+    print("Hello World !!")
+
+And the output is
+
+![](https://cdn-images-1.medium.com/max/2000/1*zywml41VkW2DhIngnYCErw.png)
+
+Let create a more complex script in R to generate 1000 number in a random distribution and arrange them based on their frequency and create a bar chart.
+
+    n <- floor(rnorm(10000, 500, 100)) 
+    t <- table(n) 
+    barplot(t)
+
+And the output of this script :
+
+![A Bar Plot](https://cdn-images-1.medium.com/max/2000/1*M6I-O1tIT0EAkx7VNStMVg.png)*A Bar Plot*
+
+**NOTE**: The extension of R scripts is **.R** .
+
+### Conclusion:
+
+In a nutshell, R is easy to learn and use language. It is widely in practice and students and data scientists. With the data science predicted to grow immensely the importance of R is also undoubted. Hence learning R will the wisest decision you will make for launching your career in the big data space.
+
+---
+## Author
+>
+>Hey, I’m Ayan, a backend software engineer. I write about what I know to help viewers like you. please consider supporting what I do!
+>
+>[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/B0B81M1SZ)
+
