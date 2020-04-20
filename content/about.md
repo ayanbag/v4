@@ -7,7 +7,7 @@ aliases = ["about-us","about-hugo","contact"]
 +++
 
 
-I’m Ayan Bag, a backend developer developer, technical writer, and a vivid gamer. I [learn in public](/posts) and write about everything I know. I am a prefinal year student at **Kalyani Government Engineering College**, pursuing bachelors in Electronics and Communications.
+I’m Ayan Bag, a backend developer developer, technical writer, and a vivid gamer. I [learn in public](/articles) and write about everything I know. I am a prefinal year student at **Kalyani Government Engineering College**, pursuing bachelors in Electronics and Communications.
 
 When I am not solving user problems and my infinite chrome tabs have been closed, you can find me preparing for my next hackathon, relishing vintage cricket matches or bumping to hip hop jams on repeat.
 
