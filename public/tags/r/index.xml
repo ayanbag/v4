@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>r on Ayan Bag</title>
+    <link>https://example.com/tags/r/</link>
+    <description>Recent content in r on Ayan Bag</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Sat, 27 Oct 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://example.com/tags/r/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A Sweet Introduction to R Programming</title>
+      <link>https://example.com/articles/sweet-introduction-to-r-programming/</link>
+      <pubDate>Sat, 27 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/articles/sweet-introduction-to-r-programming/</guid>
+      <description>R is a open source and very popular programming language and environment for statistical computer and graphics.R was designed by statisticians and was specialized for statistical computing, and thus is known as the lingua franca of statistics. It is mostly used in Data Science and Machine Learning. It is managed by R core development team — team of volunteer developer from across the globe. R provide a wide variety of statistical and graphical techniques and highly extensible.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="map[name:Ayan Bag]">
+<meta name="description" content="**Sckit-learn** is a open source Python library that provides many unsupervised and supervised learning algorithms." />
+<meta name="keywords" content="Ayan Bag, ayan bag, ayanbag, @ayanbag, ayanbag9474,UX/UI Designer Kalyani Government Engineering College, KGEC, kgec,Kalyani, IEEE, Backend Developer, Data Science, Deep Learning, TCS,TCS Engnix, Hackoctober 2019,Hackoctober 2018, Github,Kolkata,Kalyani, Delhi, India,Electronics and Communication, Computer Science and Engineering, Computer Science, IEEE-KGEC, python, data-science, language, machine-learning" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="#252627" />
+<link rel="canonical" href="https://example.com/articles/python-sckit-learn-cheat-sheet/" />
+
+<link rel="icon" type="image/png" sizes="32x32" href="icon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="icon/favicon-16x16.png">
+
+
+
+
+    <title>
+        
+            Kickstart to Machine Learning with Sckit-learn :: Ayan Bag 
+        
+    </title>
+
+
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.2.1/css/flag-icon.min.css" rel="stylesheet"
+    type="text/css">
+
+
+
+<link rel="stylesheet" href="https://example.com/main.min.7bfbbe12786fa0ded4b4c0d792cbb36a5bd0bdb0b856dde57aa7b1f6fe0f2b87.css">
+
+
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="https://example.com/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://example.com/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://example.com/images/favicon-16x16.png">
+    <link rel="manifest" href="https://example.com/images/site.webmanifest">
+    <link rel="mask-icon" href="https://example.com/safari-pinned-tab.svg" color="#252627">
+    <link rel="shortcut icon" href="https://example.com/images/favicon.ico">
+    <meta name="msapplication-TileColor" content="#252627">
+    <meta name="theme-color" content="#252627">
+
+<meta itemprop="name" content="Kickstart to Machine Learning with Sckit-learn">
+<meta itemprop="description" content="**Sckit-learn** is a open source Python library that provides many unsupervised and supervised learning algorithms.">
+<meta itemprop="datePublished" content="2020-04-19T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2020-04-19T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="908">
+
+
+
+<meta itemprop="keywords" content="python,data-science,language,machine-learning," /><meta property="og:title" content="Kickstart to Machine Learning with Sckit-learn" />
+<meta property="og:description" content="**Sckit-learn** is a open source Python library that provides many unsupervised and supervised learning algorithms." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://example.com/articles/python-sckit-learn-cheat-sheet/" />
+<meta property="article:published_time" content="2020-04-19T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-04-19T00:00:00+00:00" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Kickstart to Machine Learning with Sckit-learn"/>
+<meta name="twitter:description" content="**Sckit-learn** is a open source Python library that provides many unsupervised and supervised learning algorithms."/>
+
+
+
+    <meta property="article:section" content="machine learning" />
+
+    <meta property="article:section" content="python" />
+
+
+
+    <meta property="article:published_time" content="2020-04-19 00:00:00 &#43;0000 UTC" />
+
+
+
+
+
+
+
+
+    </head>
+
+    <body class="dark-theme">
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="https://example.com/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">></span>
+            <span class="logo__text">$ ayanbag@home</span>
+            <span class="logo__cursor" style=
+                  "
+                   
+                   ">
+            </span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+            
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="https://example.com/about">About</a></li><li><a href="https://example.com/articles">Articles</a></li><li><a href="https://drive.google.com/file/d/1y4vAPFJH6rIj0kykn0-dBaMYJR1DenVu/view">Resume</a></li>
+    </ul>
+</nav>
+
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+            
+
+            <span class="theme-toggle unselectable"><svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+</span>
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+    <main class="post">
+
+        <div class="post-info">
+            
+            </p>
+        </div>
+
+        <article>
+            <h2 class="post-title"><a href="https://example.com/articles/python-sckit-learn-cheat-sheet/">Kickstart to Machine Learning with Sckit-learn</a></h2>
+
+            
+
+            <div class="post-content">
+                <p><strong>Sckit-learn</strong> is a open source Python library that provides many unsupervised and supervised learning algorithms. It also  implements a range of preprocessing, cross-validation and visualization algorithms using a unified interface</p>
+<p>Basic example:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">&gt;&gt;&gt;</span> <span style="color:#f92672">from</span> sklearn <span style="color:#f92672">import</span> neighbors, datasets, preprocessing
+<span style="color:#f92672">&gt;&gt;&gt;</span> <span style="color:#f92672">from</span> sklearn.model_selection <span style="color:#f92672">import</span> train_test_split
+<span style="color:#f92672">&gt;&gt;&gt;</span> <span style="color:#f92672">from</span> sklearn.metrics <span style="color:#f92672">import</span> accuracy_score
+<span style="color:#f92672">&gt;&gt;&gt;</span> iris <span style="color:#f92672">=</span> datasets<span style="color:#f92672">.</span>load_iris()
+<span style="color:#f92672">&gt;&gt;&gt;</span> X, y <span style="color:#f92672">=</span> iris<span style="color:#f92672">.</span>data[:, :<span style="color:#ae81ff">2</span>], iris<span style="color:#f92672">.</span>target
+<span style="color:#f92672">&gt;&gt;&gt;</span> X_train, X_test, y_train, y_test <span style="color:#f92672">=</span> train_test_split(X, y, random_state<span style="color:#f92672">=</span><span style="color:#ae81ff">33</span>)
+<span style="color:#f92672">&gt;&gt;&gt;</span> scaler <span style="color:#f92672">=</span> preprocessing<span style="color:#f92672">.</span>StandardScaler()<span style="color:#f92672">.</span>fit(X_train)
+<span style="color:#f92672">&gt;&gt;&gt;</span> X_train <span style="color:#f92672">=</span> scaler<span style="color:#f92672">.</span>transform(X_train)
+<span style="color:#f92672">&gt;&gt;&gt;</span> X_test <span style="color:#f92672">=</span> scaler<span style="color:#f92672">.</span>transform(X_test)
+<span style="color:#f92672">&gt;&gt;&gt;</span> knn <span style="color:#f92672">=</span> neighbors<span style="color:#f92672">.</span>KNeighborsClassifier(n_neighbors<span style="color:#f92672">=</span><span style="color:#ae81ff">5</span>)
+<span style="color:#f92672">&gt;&gt;&gt;</span> knn<span style="color:#f92672">.</span>fit(X_train, y_train)
+<span style="color:#f92672">&gt;&gt;&gt;</span> y_pred <span style="color:#f92672">=</span> knn<span style="color:#f92672">.</span>predict(X_test)<span style="color:#f92672">&gt;&gt;&gt;</span> accuracy_score(y_test, y_pred)
+</code></pre></div><h3 id="important-features-of-sckit-learn">Important features of Sckit-learn</h3>
+<ul>
+<li>Simple and efficient tools for data mining and data analysis.</li>
+<li>Accessible to everybody and reusable in various contexts.</li>
+<li>Built on the top of NumPy, SciPy, and matplotlib.</li>
+<li>Open source, commercially usable – BSD license</li>
+</ul>
+<h3 id="components-of-sckit-learn">Components of Sckit-learn</h3>
+<p>Scikit-learn comes loaded with a lot of features. Here are a few of them to help you understand the spread:</p>
+<ul>
+<li><strong>Supervised Learning algorithms</strong> : Supervised learning is the machine learning task of learning a function that maps an input to an output based on example input-output pairs. It infers a function from labeled training data consisting of a set of training examples.</li>
+<li><strong>Unsupervised Learning Algorithms</strong> : There is a large spread of machine learning algorithms in the offering – starting from clustering, factor analysis, principal component analysis to unsupervised neural networks.</li>
+<li><strong>Cross-validation</strong> : These are re-sampling procedure used to evaluate machine learning models on a limited data using sklearn.</li>
+<li><strong>Feature Extraction</strong> : Scikit-learn for extracting features from images and text</li>
+</ul>
+<h3 id="installation-of-sckit-learn">Installation of Sckit-learn</h3>
+<p>Sckit-learn requires:</p>
+<ul>
+<li>Numpy</li>
+<li>SciPy as its dependencies</li>
+</ul>
+<p>Before installing Sckit-learn , ensure that <strong>Numpy</strong> and <strong>SciPy</strong> is installed in the working directory.
+The easiest way to install <strong>Sckit-learn</strong> is by using <code>pip</code></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">pip install <span style="color:#f92672">-</span>U scikit<span style="color:#f92672">-</span>learn
+</code></pre></div><hr>
+<h2 id="loading-the-data">Loading The Data</h2>
+<p>Your data needs to be numeric and stored as NumPy arrays or SciPy sparse matrices. Other types that are convertible to numeric arrays, such as Pandas DataFrame, are also acceptable.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">&gt;&gt;&gt;</span> <span style="color:#f92672">import</span> numpy <span style="color:#f92672">as</span> np
+<span style="color:#f92672">&gt;&gt;&gt;</span> X <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>random<span style="color:#f92672">.</span>random((<span style="color:#ae81ff">30</span>,<span style="color:#ae81ff">8</span>))
+<span style="color:#f92672">&gt;&gt;&gt;</span> y <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>array([<span style="color:#e6db74">&#39;A&#39;</span>,<span style="color:#e6db74">&#39;A&#39;</span>,<span style="color:#e6db74">&#39;B&#39;</span>,<span style="color:#e6db74">&#39;A&#39;</span>,<span style="color:#e6db74">&#39;B&#39;</span>])
+<span style="color:#f92672">&gt;&gt;&gt;</span> X[X <span style="color:#f92672">&lt;</span> <span style="color:#ae81ff">0.7</span>] <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
+</code></pre></div><hr>
+<h2 id="training-and-testing-data">Training and Testing Data</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Python" data-lang="Python"><span style="color:#f92672">&gt;&gt;&gt;</span> <span style="color:#f92672">from</span> sklearn.model_selection <span style="color:#f92672">import</span> train_test_split
+<span style="color:#f92672">&gt;&gt;&gt;</span> X_train, X_test, y_train, y_test <span style="color:#f92672">=</span> train_test_split(X,Y,random_state<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>)
+</code></pre></div><hr>
+<h2 id="preprocessing-the-data">Preprocessing The Data</h2>
+<p>Data Preprocessing is a step in which data gets transformed or encoded, to bring it in such a state that the machine can easily parse it. In other words, the data now can be easily interpreted by the algorithms.</p>
+<h3 id="standardization">Standardization</h3>
+<p>Standardization refers to shifting the distribution of each attribute to have a mean of zero and a standard deviation of one (unit variance).</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">&gt;&gt;&gt;</span> <span style="color:#f92672">from</span> sklearn.preprocessing <span style="color:#f92672">import</span> StandardScaler
+<span style="color:#f92672">&gt;&gt;&gt;</span> scaler <span style="color:#f92672">=</span> StandardScaler()<span style="color:#f92672">.</span>fit(X_train)
+<span style="color:#f92672">&gt;&gt;&gt;</span> standardized_X <span style="color:#f92672">=</span> scaler<span style="color:#f92672">.</span>transform(X_train)
+<span style="color:#f92672">&gt;&gt;&gt;</span> standardized_X_test <span style="color:#f92672">=</span> scaler<span style="color:#f92672">.</span>transform(X_test)
+</code></pre></div><h3 id="normalization">Normalization</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">&gt;&gt;&gt;</span> <span style="color:#f92672">from</span> sklearn.preprocessing <span style="color:#f92672">import</span> Normalizer
+<span style="color:#f92672">&gt;&gt;&gt;</span> scaler <span style="color:#f92672">=</span> Normalizer()<span style="color:#f92672">.</span>fit(X_train)
+<span style="color:#f92672">&gt;&gt;&gt;</span> normalized_X <span style="color:#f92672">=</span> scaler<span style="color:#f92672">.</span>transform(X_train)
+<span style="color:#f92672">&gt;&gt;&gt;</span> normalized_X_test <span style="color:#f92672">=</span> scaler<span style="color:#f92672">.</span>transform(X_test)
+</code></pre></div><h3 id="binarization">Binarization</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">&gt;&gt;&gt;</span> <span style="color:#f92672">from</span> sklearn.preprocessing <span style="color:#f92672">import</span> Binarizer
+<span style="color:#f92672">&gt;&gt;&gt;</span> binarizer <span style="color:#f92672">=</span> Binarizer(threshold<span style="color:#f92672">=</span><span style="color:#ae81ff">0.0</span>)<span style="color:#f92672">.</span>fit(X)
+<span style="color:#f92672">&gt;&gt;&gt;</span> binary_X <span style="color:#f92672">=</span> binarizer<span style="color:#f92672">.</span>transform(X)
+</code></pre></div><h3 id="encoding-categorical-features">Encoding Categorical Features</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">&gt;&gt;&gt;</span> <span style="color:#f92672">from</span> sklearn.preprocessing <span style="color:#f92672">import</span> LabelEncoder
+<span style="color:#f92672">&gt;&gt;&gt;</span> enc <span style="color:#f92672">=</span> LabelEncoder()
+<span style="color:#f92672">&gt;&gt;&gt;</span> y <span style="color:#f92672">=</span> enc<span style="color:#f92672">.</span>fit_transform(y)py
+</code></pre></div><h3 id="imputing-missing-values">Imputing Missing Values</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">&gt;&gt;&gt;</span> <span style="color:#f92672">from</span> sklearn.preprocessing <span style="color:#f92672">import</span> Imputer
+<span style="color:#f92672">&gt;&gt;&gt;</span> imp <span style="color:#f92672">=</span> Imputer(missing_values<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>, strategy<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;mean&#39;</span>, axis<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>)
+<span style="color:#f92672">&gt;&gt;&gt;</span> imp<span style="color:#f92672">.</span>fit_transform(X_train)
+</code></pre></div><h3 id="generating-polynomial-features">Generating Polynomial Features</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">&gt;&gt;&gt;</span> <span style="color:#f92672">from</span> sklearn.preprocessing <span style="color:#f92672">import</span> PolynomialFeatures
+<span style="color:#f92672">&gt;&gt;&gt;</span> poly <span style="color:#f92672">=</span> PolynomialFeatures(<span style="color:#ae81ff">5</span>)
+<span style="color:#f92672">&gt;&gt;&gt;</span> poly<span style="color:#f92672">.</span>fit_transform(X)
+</code></pre></div><h2 id="creating-the-model">Creating the Model</h2>
+<h3 id="supervised-learning-estimators">Supervised Learning Estimators</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">Linear Regression
+<span style="color:#f92672">&gt;&gt;&gt;</span> <span style="color:#f92672">from</span> sklearn.linear_model <span style="color:#f92672">import</span> LinearRegression
+<span style="color:#f92672">&gt;&gt;&gt;</span> lr <span style="color:#f92672">=</span> LinearRegression(normalize<span style="color:#f92672">=</span>True)   
+
+Support Vector Machines (SVM)
+<span style="color:#f92672">&gt;&gt;&gt;</span> <span style="color:#f92672">from</span> sklearn.svm <span style="color:#f92672">import</span> SVC
+<span style="color:#f92672">&gt;&gt;&gt;</span> svc <span style="color:#f92672">=</span> SVC(kernel<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;linear&#39;</span>)   
+
+Naive Bayes 
+<span style="color:#f92672">&gt;&gt;&gt;</span> <span style="color:#f92672">from</span> sklearn.naive_bayes <span style="color:#f92672">import</span> GaussianNB
+<span style="color:#f92672">&gt;&gt;&gt;</span> gnb <span style="color:#f92672">=</span> GaussianNB()   
+
+KNN
+<span style="color:#f92672">&gt;&gt;&gt;</span> <span style="color:#f92672">from</span> sklearn <span style="color:#f92672">import</span> neighbors
+<span style="color:#f92672">&gt;&gt;&gt;</span> knn <span style="color:#f92672">=</span> neighbors<span style="color:#f92672">.</span>KNeighborsClassifier(n_neighbors<span style="color:#f92672">=</span><span style="color:#ae81ff">5</span>)
+</code></pre></div><h3 id="unsupervised-learning-estimators">Unsupervised Learning Estimators</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">Principal Component Analysis (PCA)
+<span style="color:#f92672">&gt;&gt;&gt;</span> <span style="color:#f92672">from</span> sklearn.decomposition <span style="color:#f92672">import</span> PCA
+<span style="color:#f92672">&gt;&gt;&gt;</span> pca <span style="color:#f92672">=</span> PCA(n_components<span style="color:#f92672">=</span><span style="color:#ae81ff">0.95</span>)   
+
+K Means
+<span style="color:#f92672">&gt;&gt;&gt;</span> <span style="color:#f92672">from</span> sklearn.cluster <span style="color:#f92672">import</span> KMeans
+<span style="color:#f92672">&gt;&gt;&gt;</span> k_means <span style="color:#f92672">=</span> KMeans(n_clusters<span style="color:#f92672">=</span><span style="color:#ae81ff">3</span>, random_state<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>)
+</code></pre></div><hr>
+<h2 id="model-fitting">Model Fitting</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">Supervised learning 
+<span style="color:#f92672">&gt;&gt;&gt;</span> lr<span style="color:#f92672">.</span>fit(X, y)							<span style="color:#75715e"># Fit the model to the data</span>
+<span style="color:#f92672">&gt;&gt;&gt;</span> knn<span style="color:#f92672">.</span>fit(X_train, y_train)
+<span style="color:#f92672">&gt;&gt;&gt;</span> svc<span style="color:#f92672">.</span>fit(X_train, y_train)   
+
+Unsupervised Learning
+<span style="color:#f92672">&gt;&gt;&gt;</span> k_means<span style="color:#f92672">.</span>fit(X_train)					<span style="color:#75715e"># Fit the model to the data</span>
+<span style="color:#f92672">&gt;&gt;&gt;</span> pca_model <span style="color:#f92672">=</span> pca<span style="color:#f92672">.</span>fit_transform(X_train)	<span style="color:#75715e"># Fit to data, then transform it</span>
+</code></pre></div><hr>
+<h2 id="prediction">Prediction</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">Supervised Estimators
+<span style="color:#f92672">&gt;&gt;&gt;</span> y_pred <span style="color:#f92672">=</span>svc<span style="color:#f92672">.</span>predict(np<span style="color:#f92672">.</span>random<span style="color:#f92672">.</span>random((<span style="color:#ae81ff">2</span>,<span style="color:#ae81ff">5</span>)))	<span style="color:#75715e"># Predict labels</span>
+<span style="color:#f92672">&gt;&gt;&gt;</span> y_pred <span style="color:#f92672">=</span> lr<span style="color:#f92672">.</span>predict(X_test)						<span style="color:#75715e"># Predict labels</span>
+<span style="color:#f92672">&gt;&gt;&gt;</span> y_pred <span style="color:#f92672">=</span> knn<span style="color:#f92672">.</span>predict_proba(X_test)   			<span style="color:#75715e"># Estimate probability of a label</span>
+
+Unsupervised Estimators
+<span style="color:#f92672">&gt;&gt;&gt;</span> y_pred <span style="color:#f92672">=</span> k_means<span style="color:#f92672">.</span>predict(X_test)				<span style="color:#75715e"># Predict labels in clustering algos</span>
+</code></pre></div><hr>
+<h2 id="evaluating-the-models-performance">Evaluating The Model&rsquo;s Performance</h2>
+<h3 id="classification-metrics">Classification Metrics</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"> Accuracy Score
+ <span style="color:#f92672">&gt;&gt;&gt;</span> knn<span style="color:#f92672">.</span>score(X_test, y_test)							<span style="color:#75715e"># Estimator score method</span>
+ <span style="color:#f92672">&gt;&gt;&gt;</span> <span style="color:#f92672">from</span> sklearn.metrics <span style="color:#f92672">import</span> accuracy_score			<span style="color:#75715e"># Metric scoring functions </span>
+ <span style="color:#f92672">&gt;&gt;&gt;</span> accuracy_score(y_test, y_pred)  
+ 
+ Classification Report
+ <span style="color:#f92672">&gt;&gt;&gt;</span> <span style="color:#f92672">from</span> sklearn.metrics <span style="color:#f92672">import</span> classification_report	<span style="color:#75715e"># Precision, recall, f1-score</span>
+ <span style="color:#f92672">&gt;&gt;&gt;</span> <span style="color:#66d9ef">print</span>(classification_report(y_test, y_pred))  
+ 
+ Confusion Matrix
+ <span style="color:#f92672">&gt;&gt;&gt;</span> <span style="color:#f92672">from</span> sklearn.metrics <span style="color:#f92672">import</span> confusion_matrix
+ <span style="color:#f92672">&gt;&gt;&gt;</span> <span style="color:#66d9ef">print</span>(confusion_matrix(y_test, y_pred))
+</code></pre></div><h3 id="regression-metrics">Regression Metrics</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">Mean Absolute Error
+<span style="color:#f92672">&gt;&gt;&gt;</span> <span style="color:#f92672">from</span> sklearn.metrics <span style="color:#f92672">import</span> mean_absolute_error
+<span style="color:#f92672">&gt;&gt;&gt;</span> y_true <span style="color:#f92672">=</span> [<span style="color:#ae81ff">3</span>, <span style="color:#f92672">-</span><span style="color:#ae81ff">0.5</span>, <span style="color:#ae81ff">2</span>]
+<span style="color:#f92672">&gt;&gt;&gt;</span> mean_absolute_error(y_true, y_pred)   
+
+Mean Squared Error
+<span style="color:#f92672">&gt;&gt;&gt;</span> <span style="color:#f92672">from</span> sklearn.metrics <span style="color:#f92672">import</span> mean_squared_error
+<span style="color:#f92672">&gt;&gt;&gt;</span> mean_squared_error(y_test, y_pred)   
+
+R<span style="color:#960050;background-color:#1e0010">²</span> Score
+<span style="color:#f92672">&gt;&gt;&gt;</span> <span style="color:#f92672">from</span> sklearn.metrics <span style="color:#f92672">import</span> r2_score
+<span style="color:#f92672">&gt;&gt;&gt;</span> r2_score(y_true, y_pred)
+</code></pre></div><h3 id="clustering-metrics">Clustering Metrics</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">Adjusted Rand Index
+<span style="color:#f92672">&gt;&gt;&gt;</span> <span style="color:#f92672">from</span> sklearn.metrics <span style="color:#f92672">import</span> adjusted_rand_score
+<span style="color:#f92672">&gt;&gt;&gt;</span> adjusted_rand_score(y_true, y_pred)    
+
+Homogeneity
+<span style="color:#f92672">&gt;&gt;&gt;</span> <span style="color:#f92672">from</span> sklearn.metrics <span style="color:#f92672">import</span> homogeneity_score
+<span style="color:#f92672">&gt;&gt;&gt;</span> homogeneity_score(y_true, y_pred)  
+
+V<span style="color:#f92672">-</span>measure
+<span style="color:#f92672">&gt;&gt;&gt;</span> <span style="color:#f92672">from</span> sklearn.metrics <span style="color:#f92672">import</span> v_measure_score
+<span style="color:#f92672">&gt;&gt;&gt;</span> metrics<span style="color:#f92672">.</span>v_measure_score(y_true, y_pred)  
+</code></pre></div><h3 id="cross-validation">Cross-Validation</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">&gt;&gt;&gt;</span> <span style="color:#f92672">from</span> sklearn.cross_validation <span style="color:#f92672">import</span> cross_val_score
+<span style="color:#f92672">&gt;&gt;&gt;</span> <span style="color:#66d9ef">print</span>(cross_val_score(knn, X_train, y_train, cv<span style="color:#f92672">=</span><span style="color:#ae81ff">4</span>))
+<span style="color:#f92672">&gt;&gt;&gt;</span> <span style="color:#66d9ef">print</span>(cross_val_score(lr, X, y, cv<span style="color:#f92672">=</span><span style="color:#ae81ff">2</span>))
+</code></pre></div><hr>
+<h2 id="tuning-the-model">Tuning The Model</h2>
+<h3 id="grid-search">Grid Search</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">&gt;&gt;&gt;</span> <span style="color:#f92672">from</span> sklearn.grid_search <span style="color:#f92672">import</span> GridSearchCV
+<span style="color:#f92672">&gt;&gt;&gt;</span> params <span style="color:#f92672">=</span> {<span style="color:#e6db74">&#34;n_neighbors&#34;</span>: np<span style="color:#f92672">.</span>arange(<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">3</span>), <span style="color:#e6db74">&#34;metric&#34;</span>: [<span style="color:#e6db74">&#34;euclidean&#34;</span>, <span style="color:#e6db74">&#34;cityblock&#34;</span>]}
+<span style="color:#f92672">&gt;&gt;&gt;</span> grid <span style="color:#f92672">=</span> GridSearchCV(estimator<span style="color:#f92672">=</span>knn, param_grid<span style="color:#f92672">=</span>params)
+<span style="color:#f92672">&gt;&gt;&gt;</span> grid<span style="color:#f92672">.</span>fit(X_train, y_train)
+<span style="color:#f92672">&gt;&gt;&gt;</span> <span style="color:#66d9ef">print</span>(grid<span style="color:#f92672">.</span>best_score_)
+<span style="color:#f92672">&gt;&gt;&gt;</span> <span style="color:#66d9ef">print</span>(grid<span style="color:#f92672">.</span>best_estimator_<span style="color:#f92672">.</span>n_neighbors)
+</code></pre></div><h3 id="randomized-parameter-optimization">Randomized Parameter Optimization</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">&gt;&gt;&gt;</span> <span style="color:#f92672">from</span> sklearn.grid_search <span style="color:#f92672">import</span> RandomizedSearchCV
+<span style="color:#f92672">&gt;&gt;&gt;</span> params <span style="color:#f92672">=</span> {<span style="color:#e6db74">&#34;n_neighbors&#34;</span>: range(<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">5</span>), <span style="color:#e6db74">&#34;weights&#34;</span>: [<span style="color:#e6db74">&#34;uniform&#34;</span>, <span style="color:#e6db74">&#34;distance&#34;</span>]}
+<span style="color:#f92672">&gt;&gt;&gt;</span> rsearch <span style="color:#f92672">=</span> RandomizedSearchCV(estimator<span style="color:#f92672">=</span>knn,param_distributions<span style="color:#f92672">=</span>params,cv<span style="color:#f92672">=</span><span style="color:#ae81ff">4</span>,n_iter<span style="color:#f92672">=</span><span style="color:#ae81ff">8</span>, random_state<span style="color:#f92672">=</span><span style="color:#ae81ff">5</span>)
+<span style="color:#f92672">&gt;&gt;&gt;</span> rsearch<span style="color:#f92672">.</span>fit(X_train, y_train)<span style="color:#f92672">&gt;&gt;&gt;</span> <span style="color:#66d9ef">print</span>(rsearch<span style="color:#f92672">.</span>best_score_)
+</code></pre></div><hr>
+<h2 id="reference">Reference</h2>
+<ul>
+<li><a href="https://www.datacamp.com/courses/topic:machine_learning">DataCamp</a></li>
+<li><a href="https://machinelearningmastery.com/start-here/#python">Machine Learning Mastery</a></li>
+<li><a href="https://towardsdatascience.com/scale-standardize-or-normalize-with-scikit-learn-6ccc7d176a02">TowardsDataScience</a></li>
+<li><a href="https://www.analyticsvidhya.com/blog/2017/09/common-machine-learning-algorithms/">Analytics Vidya</a></li>
+</ul>
+<hr>
+<h2 id="author">Author</h2>
+<blockquote>
+<p>Hey, I’m Ayan, a backend software engineer. I write about what I know to help viewers like you. please consider supporting what I do!</p>
+<p><a href="https://ko-fi.com/B0B81M1SZ"><img src="https://www.ko-fi.com/img/githubbutton_sm.svg" alt="ko-fi"></a></p>
+</blockquote>
+
+            </div>
+        </article>
+
+        <hr />
+
+        <div class="post-info">
+  				<p>
+  					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg><span class="tag"><a href="https://example.com/tags/python">python</a></span><span class="tag"><a href="https://example.com/tags/data-science">data-science</a></span><span class="tag"><a href="https://example.com/tags/language">language</a></span><span class="tag"><a href="https://example.com/tags/machine-learning">machine-learning</a></span>
+  				</p>
+  		</div>
+    </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>&copy; 2020</span>
+            
+                <span><a href="https://example.com">Ayan Bag</a></span>
+            
+            <span><a href='https://mailchi.mp/4bdabcbbc62d/subs'>Subscribe</a></span>
+            <span> <a href="https://example.com/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a></span>
+        </div>
+    </div>
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>Support Me on <a href='https://ko-fi.com/B0B81M1SZ'>Ko-fi</a></span>
+        </div>
+    </div>
+</footer>
+
+            
+        </div>
+
+        
+
+
+
+
+<script type="text/javascript" src="https://example.com/bundle.min.2d5469329143160ae2456a69c3c76dc2d0a3b212b46afe291a51bd68650ed6f8697e001dab54f1c272c77ce08092a8c55e5bb4314e0ee334aab4b927ec896638.js" integrity="sha512-LVRpMpFDFgriRWppw8dtwtCjshK0av4pGlG9aGUO1vhpfgAdq1TxwnLHfOCAkqjFXlu0MU4O4zSqtLkn7IlmOA=="></script>
+
+
+
+    </body>
+</html>

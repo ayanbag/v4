@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>data-science on Ayan Bag</title>
+    <link>https://example.com/tags/data-science/</link>
+    <description>Recent content in data-science on Ayan Bag</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Sun, 19 Apr 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://example.com/tags/data-science/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Kickstart to Machine Learning with Sckit-learn</title>
+      <link>https://example.com/articles/python-sckit-learn-cheat-sheet/</link>
+      <pubDate>Sun, 19 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/articles/python-sckit-learn-cheat-sheet/</guid>
+      <description>Sckit-learn is a open source Python library that provides many unsupervised and supervised learning algorithms. It also implements a range of preprocessing, cross-validation and visualization algorithms using a unified interface
+Basic example:
+&amp;gt;&amp;gt;&amp;gt; from sklearn import neighbors, datasets, preprocessing &amp;gt;&amp;gt;&amp;gt; from sklearn.model_selection import train_test_split &amp;gt;&amp;gt;&amp;gt; from sklearn.metrics import accuracy_score &amp;gt;&amp;gt;&amp;gt; iris = datasets.load_iris() &amp;gt;&amp;gt;&amp;gt; X, y = iris.data[:, :2], iris.target &amp;gt;&amp;gt;&amp;gt; X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=33) &amp;gt;&amp;gt;&amp;gt; scaler = preprocessing.</description>
+    </item>
+    
+    <item>
+      <title>A Sweet Introduction to R Programming</title>
+      <link>https://example.com/articles/sweet-introduction-to-r-programming/</link>
+      <pubDate>Sat, 27 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/articles/sweet-introduction-to-r-programming/</guid>
+      <description>R is a open source and very popular programming language and environment for statistical computer and graphics.R was designed by statisticians and was specialized for statistical computing, and thus is known as the lingua franca of statistics. It is mostly used in Data Science and Machine Learning. It is managed by R core development team — team of volunteer developer from across the globe. R provide a wide variety of statistical and graphical techniques and highly extensible.</description>
+    </item>
+    
+  </channel>
+</rss>
