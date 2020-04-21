@@ -26,6 +26,7 @@ Hey there! 👋
 
 ## Open Source Projects
 
+- [MarkdownEdit](https://markdownedit-ef833.web.app/) -  A simple, efficient and light-weight MarkdownEditor built with Marked.js
 - [Shutterbug-KGEC-Admin](https://github.com/shutterbugkgec/Shutterbug-admin) - Admin Panel of Shutterbug-KGEC
 - [Orobot](https://ayanbag.github.io/orobot/) – A cryptocurrency knowledge chatbot made with SAP Conversational AI
 - [Spoon](https://spoontheme.netlify.app/) – The dark green theme for Visual Studio Code
