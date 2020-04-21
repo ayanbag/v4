@@ -1,4 +1,4 @@
-baseURL = "https://ayanbag.netlify.app"
+baseURL = "https://example.com"
 title   = "Ayan Bag"
 
 DefaultContentLanguage = "en"
@@ -59,7 +59,7 @@ disableHugoGeneratorInject = false
   keywords = "Ayan Bag, ayan bag, ayanbag, @ayanbag, ayanbag9474,UX/UI Designer Kalyani Government Engineering College, KGEC, kgec,Kalyani, IEEE, Backend Developer, Data Science, Deep Learning, TCS,TCS Engnix, Hackoctober 2019,Hackoctober 2018, Github,Kolkata,Kalyani, Delhi, India,Electronics and Communication, Computer Science and Engineering, Computer Science, IEEE-KGEC"
   images = []
 
-  homeSubtitle = "Backend Developer"
+  homeSubtitle = "I'm a Back-end Developer creating open source projects and writing about modern JavaScript, Python, and development."
 
   # Prefix of link to the git commit detail page. GitInfo must be enabled.
   # gitUrl = ""

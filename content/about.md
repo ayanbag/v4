@@ -3,13 +3,15 @@ title = "About"
 date = "2014-04-09"
 aliases = ["about-us","about-hugo","contact"]
 [ author ]
-  name = "Ayan bAG"
+  name = "Ayan Bag"
 +++
 
+Hey there! 👋
 
-I’m Ayan Bag, a backend developer developer, technical writer, and a vivid gamer. I [learn in public](/articles) and write about everything I know. I am a prefinal year student at **Kalyani Government Engineering College**, pursuing bachelors in Electronics and Communications.
+**I am Ayan Bag**, a pre-final year engineering undergrad student who loves to built and design products from scratch.
 
-When I am not solving user problems and my infinite chrome tabs have been closed, you can find me preparing for my next hackathon, relishing vintage cricket matches or bumping to hip hop jams on repeat.
+**Passion** and **diligence** are two traits that I believe most reflect me as an individual. It is my belief that this is the key to being successful in any endeavor that one set’s their mind. I love to generate new ideas and devise feasible solutions to broadly relevant problems. I enjoy embracing the lessons learned from failure, stand up and continue to grow.
+
 
 ## Ayan
 - 💻 a full-time student 
