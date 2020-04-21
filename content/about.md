@@ -43,6 +43,12 @@ Hey there! 👋
 - [Indigo App Redesign](https://dribbble.com/shots/6716023-Flight-Booking-App-Design) - My concept of a flight booking app for Indigo Airlines
 - [Xbox UI Redesign](https://youtu.be/i49O3tXn38g) - Xbox One UI Redesign by me 
 
+
+## Hackathon Project(s)
+
+- [Local Loop](https://github.com/ayanbag/Local-Loop) - Offline Shop Review System (Presented in TCS Engnix 2019 Hackathon)
+
+
 ## Publications
 
 Articles I've written for developer publications.
