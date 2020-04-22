@@ -69,7 +69,7 @@ A few sites I designed.
 - **Computer:** 15" HP Pavilion
 - **Hosting:** [Netlify](https://netlify.com)
 - **Editor:** [Visual Studio Code](https://code.visualstudio.com/)
-- **Static site generator:** [Hugo](https://gatsbyjs.org)
+- **Static site generator:** [Hugo](https://gohugo.io/)
 - **Code theme:** [Spoon](https://spoontheme.netlify.com/)
 - **Email newsletter:** [MailChimp](https://mailchimp.com/)
 
