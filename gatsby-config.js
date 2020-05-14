@@ -34,6 +34,10 @@ module.exports = {
             name: `Dribbble`,
             url: `https://dribbble.com/ayanbag`,
           },
+          {
+            name: `Resume`,
+            url: `https://drive.google.com/open?id=1y4vAPFJH6rIj0kykn0-dBaMYJR1DenVu`,
+          },
         ],
       },
     },
