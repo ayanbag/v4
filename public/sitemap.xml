@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url> <loc>https://ayanbag.com/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://ayanbag.com/blog</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://ayanbag.com/tags</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://ayanbag.com/understanding-linked-list-in-python</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://ayanbag.com/why-to-use-strict-mode-in-java-script</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://ayanbag.com/kickstart-to-machine-learning-with-sckit-learn</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://ayanbag.com/introduction-to-multi-threading-in-python</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://ayanbag.com/a-sweet-introduction-to-r-programming</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://ayanbag.com/about</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://ayanbag.com/tags/data-science</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://ayanbag.com/tags/data-structure</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://ayanbag.com/tags/java-script</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://ayanbag.com/tags/machine-learning</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://ayanbag.com/tags/medium</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://ayanbag.com/tags/python</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://ayanbag.com/tags/r</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+</urlset>
