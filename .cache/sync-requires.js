@@ -5,7 +5,7 @@ const preferDefault = m => m && m.default || m
 
 
 exports.components = {
-  "component---node-modules-gatsby-plugin-offline-app-shell-js": hot(preferDefault(require("/home/ayan/Code/Projects/Personal Website/current/ayanbag/node_modules/gatsby-plugin-offline/app-shell.js"))),
+  "component---cache-dev-404-page-js": hot(preferDefault(require("/home/ayan/Code/Projects/Personal Website/current/ayanbag/.cache/dev-404-page.js"))),
   "component---node-modules-lekoarts-gatsby-theme-minimal-blog-core-src-templates-blog-query-tsx": hot(preferDefault(require("/home/ayan/Code/Projects/Personal Website/current/ayanbag/node_modules/@lekoarts/gatsby-theme-minimal-blog-core/src/templates/blog-query.tsx"))),
   "component---node-modules-lekoarts-gatsby-theme-minimal-blog-core-src-templates-homepage-query-tsx": hot(preferDefault(require("/home/ayan/Code/Projects/Personal Website/current/ayanbag/node_modules/@lekoarts/gatsby-theme-minimal-blog-core/src/templates/homepage-query.tsx"))),
   "component---node-modules-lekoarts-gatsby-theme-minimal-blog-core-src-templates-page-query-tsx": hot(preferDefault(require("/home/ayan/Code/Projects/Personal Website/current/ayanbag/node_modules/@lekoarts/gatsby-theme-minimal-blog-core/src/templates/page-query.tsx"))),

@@ -12,7 +12,7 @@ var plugins = [{
       options: {"plugins":[]},
     },{
       plugin: require('/home/ayan/Code/Projects/Personal Website/current/ayanbag/node_modules/gatsby-plugin-google-analytics/gatsby-ssr'),
-      options: {"plugins":[]},
+      options: {"plugins":[],"trackingId":"UA-130647973-2"},
     },{
       plugin: require('/home/ayan/Code/Projects/Personal Website/current/ayanbag/node_modules/gatsby-plugin-sitemap/gatsby-ssr'),
       options: {"plugins":[]},

@@ -1,11 +1,11 @@
 ---
-title: Ramer-Douglas–Peucker Algorithm
+title: Ramer–Douglas–Peucker Algorithm
 date: 2020-05-16
 tags:
   - Algorithms
 ---
 
-The **Ramer-Douglas–Peucker Algorithm** is a an algorithms that reduce the number of points that is approximated by a series of points. It is also known as the **Douglas–Peucker algorithm** and **iterative end-point fit algorithm**. In simple words, it represent a complex line with fewer points in a visually proper way.
+The **Ramer–Douglas–Peucker Algorithm** is a an algorithms that reduce the number of points that is approximated by a series of points. It is also known as the **Douglas–Peucker algorithm** and **iterative end-point fit algorithm**. In simple words, it represent a complex line with fewer points in a visually proper way.
 
 ![503cdff1-influxdata1](https://user-images.githubusercontent.com/28982255/82112521-2c5feb80-976b-11ea-8dbe-9b59d4b922ad.png)
 *Original dataset (right) and reduced output (left) from Ramer-Douglas-Peucker Algorithm. Image from NAMEKDEV.*
@@ -13,11 +13,11 @@ The **Ramer-Douglas–Peucker Algorithm** is a an algorithms that reduce the num
 
 ### Overview
 
-The main purpose of this algorithm is to find a similar curve with fewer points for a given curve composed of line segments (also called **Polylines**). This algorithm define 'disimilar' based on the maxium distance between the original curve and the simplied curve, i.e. the Hausdroff Distance. The simplified curve consist of a subset of points that defined the original curve. The Ramer-Douglas–Peucker Algorithm is most commonly used in geospatial visualizations, like Google Maps, but also useful for other in-browser visualizations as well.
+The main purpose of this algorithm is to find a similar curve with fewer points for a given curve composed of line segments (also called **Polylines**). This algorithm define 'disimilar' based on the maxium distance between the original curve and the simplied curve, i.e. the Hausdroff Distance. The simplified curve consist of a subset of points that defined the original curve. The Ramer–Douglas–Peucker Algorithm is most commonly used in geospatial visualizations, like Google Maps, but also useful for other in-browser visualizations as well.
 
 
 
-### Working of Ramer-Douglas–Peucker Algorithm
+### Working of Ramer–Douglas–Peucker Algorithm
 
 In order to use this algorithms, the user must the epsilon ( ε ), a threshold limit that is used to determine which point to determine and discard, and it should be a value greater than zero.
 
@@ -47,7 +47,7 @@ The process repeats recurcively until the new approximation for the polyline has
 
 ### Pseudocode
 
-The Pseudocode of Ramer-Douglas–Peucker Algorithm :
+The Pseudocode of Ramer–Douglas–Peucker Algorithm :
 
 ```
 function DouglasPeucker(PointList[], epsilon)
@@ -85,7 +85,7 @@ end
 
 ### Complexity
 
-The running time of Ramer-Douglas–Peucker Algorithm when a polyline consist of *n-1* segments and *n* vertices is given by the reccurence *T(n)=T(i+1)+T(n-i)+O(n)* where is the value of Index in peudocode.
+The running time of Ramer–Douglas–Peucker Algorithm when a polyline consist of *n-1* segments and *n* vertices is given by the reccurence *T(n)=T(i+1)+T(n-i)+O(n)* where is the value of Index in peudocode.
 
 In worst case, the algorithm has a time complexity of  **O(n²)**.
 
