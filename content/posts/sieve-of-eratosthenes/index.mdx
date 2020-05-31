@@ -43,29 +43,31 @@ Solution :
 
 ```python 
 import math
-
 n = 200 # n is any arbitrary integer
 List = []
-
-for x in xrange(2, n): # add numbers from 2 to n - 1 to List
+for x in range(2, n): # add numbers from 2 to n - 1 to List
     List.append(x)
 # note the above statement is equivalent to List = range(2, n)
-
 p = 2 # p is a prime
 while not int(math.sqrt(p)) + 1 > n: # continue to mark out primes until square root of p is less than n
-
-    for x in xrange(p * 2, n, p): # remove all the multiples of p
+    for x in range(p * 2, n, p): # remove all the multiples of p
         List[x - 2] = 0
     p += 1
     while p - 2 < len(List) and List[p - 2] == 0: # assign p to the next prime. Next prime is the next non zero number in the list
         p += 1
-
 for x in List: # search for non zero or prime numbers in the list and print them
     if x != 0:
-        print x
+        print (x)
 ```
 
 
+
+### Live Code
+
+Try the above code
+
+
+<iframe height="500px" width="100%" src="https://repl.it/@ayanbag/seive?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 
 
