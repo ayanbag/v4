@@ -20,6 +20,10 @@ module.exports = {
             title: `About Me`,
             slug: `/about`,
           },
+          {
+            title: `Publications`,
+            slug: `/publication`,
+          },
         ],
         externalLinks: [
           {
