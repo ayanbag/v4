@@ -17,8 +17,12 @@ module.exports = {
             slug: `/blog`,
           },
           {
-            title: `About Me`,
+            title: `About`,
             slug: `/about`,
+          },
+          {
+            title: `Projects`,
+            slug: `/projects`,
           },
           {
             title: `Publications`,
@@ -26,6 +30,10 @@ module.exports = {
           },
         ],
         externalLinks: [
+          {
+            name: `Google Scholar`,
+            url: `https://scholar.google.com/citations?user=IIdc_5gAAAAJ&hl=en`,
+          },
           {
             name: `LinkedIn`,
             url: `https://www.linkedin.com/in/ayanbag`,
